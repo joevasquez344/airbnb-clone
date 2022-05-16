@@ -3,7 +3,7 @@ import Image from 'next/image'
 import 'react-date-range/dist/styles.css'
 import 'react-date-range/dist/theme/default.css'
 import { DateRangePicker } from 'react-date-range'
-
+import pinIcon from '../public/assets/images/pin.png'
 import {
   SearchIcon,
   GlobeAltIcon,
@@ -64,7 +64,7 @@ const Header = ({placeholder}) => {
           objectPosition="left"
         />
       </div>
-
+      
       {/* Middle */}
       <div className="flex items-center rounded-full py-2 md:border-2 md:shadow-sm">
         <input
